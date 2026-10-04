@@ -1,10 +1,8 @@
 const contactForm = document.querySelector(".contact-form");
 
-contactForm.addEventListener("submit", function(event) {
+contactForm.addEventListener("submit", function() {
 
-    event.preventDefault();
-
-    alert("Thank you! Your message has been received.");
+    alert("Thank you! Your message is being sent.");
 
 });
 const navLinks = document.querySelectorAll(".nav-links a");
@@ -25,4 +23,13 @@ navLinks.forEach(function(link) {
 
     });
 
+});
+
+// Mobile Menu
+
+const menuToggle = document.querySelector(".menu-toggle");
+const mobileNavLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", function() {
+    mobileNavLinks.classList.toggle("active");
 });

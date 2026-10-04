@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sathi Mahalakshmi | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,20 +13,24 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
 
-        <div class="logo">
-            MAHALAKSHMI SATHI
-        </div>
+    <div class="logo">
+        MAHALAKSHMI SATHI
+    </div>
 
-        <div class="nav-links">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</div>
-    </nav>
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
 
+    <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </div>
 
+</nav>
     <!-- Home Section -->
     <section class="home" id="home">
 
@@ -42,7 +49,7 @@
 
         <div class="home-buttons">
             <button>View My Projects</button>
-            <button>Download Resume</button>
+            <a href="MAHA_RESUME.pdf" download class="resume-btn">Download Resume</a>
         </div>
 
     </div>
@@ -64,16 +71,26 @@
         <h2>Who I Am</h2>
 
         <p>
-            I am a B.Tech Information Technology student interested in
-            software development, databases, data analytics and building
-            practical technology projects.
-        </p>
+    I’m a final-year B.Tech Information Technology student with a strong
+    interest in software development, data analytics, and emerging
+    technologies. I enjoy learning through hands-on projects and turning
+    ideas into practical, user-friendly solutions.
+</p>
 
-        <p>
-            I enjoy learning new technologies and turning ideas into
-            useful applications. I am currently preparing myself for
-            software and technology-related career opportunities.
-        </p>
+<p>
+    Alongside my technical journey, I’m currently expanding my skills in
+    full-stack development, while building a foundation in Java, SQL,
+    Python, web technologies, Power BI, and automation tools. I enjoy
+    exploring new technologies and continuously challenging myself to
+    learn and improve.
+</p>
+
+<p>
+    Beyond technology, I’m also passionate about
+    <strong>UGC content creation and creative storytelling</strong>.
+    I create engaging product-focused content, combining visual creativity
+    with technology and AI tools to bring ideas to life.
+</p>
 
     </div>
 
@@ -232,6 +249,173 @@
     </div>
 
 </section>
+<!-- Certificates Section -->
+
+<!-- Certificates Section -->
+<section class="certificates" id="certificates">
+
+    <div class="certificates-content">
+
+        <p class="section-title">MY ACHIEVEMENTS</p>
+
+        <h2>Certifications</h2>
+
+        <div class="certificates-grid">
+
+            <!-- Certificate 1 -->
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="certificates/c_certificate.png"
+                         alt="C Programming Certificate">
+                </div>
+
+                <div class="certificate-info">
+                    <h3>C Programming</h3>
+
+                    <p class="certificate-organization">
+                        Cisco
+                    </p>
+
+                    <a href="certificates/c_certificate.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 2 -->
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="certificates/googlecloud.png"
+                         alt="Google Cloud Certificate">
+                </div>
+
+                <div class="certificate-info">
+                    <h3>Google Cloud</h3>
+
+                    <p class="certificate-organization">
+                        Google Cloud
+                    </p>
+
+                    <a href="certificates/googlecloud.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 3 -->
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="certificates/ITSPECIALIST.png"
+                         alt="IT Specialist Certificate">
+                </div>
+
+                <div class="certificate-info">
+                    <h3>IT Specialist</h3>
+
+                    <p class="certificate-organization">
+                        Certiport
+                    </p>
+
+                    <a href="certificates/ITSPECIALIST.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 4 -->
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="certificates/OracleCertifiedFoundationsAssociate.png"
+                         alt="Oracle Certified Foundations Associate Java Certificate">
+                </div>
+
+                <div class="certificate-info">
+                    <h3>Oracle Certified Foundations Associate – Java</h3>
+
+                    <p class="certificate-organization">
+                        Oracle University
+                    </p>
+
+                    <a href="certificates/OracleCertifiedFoundationsAssociate.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 5 -->
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="certificates/RHCSA.png"
+                         alt="Red Hat Certified System Administrator Certificate">
+                </div>
+
+                <div class="certificate-info">
+                    <h3>Red Hat Certified System Administrator</h3>
+
+                    <p class="certificate-organization">
+                        Red Hat
+                    </p>
+
+                    <a href="certificates/RHCSA.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate →
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 6 -->
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="certificates/SNOWPROASSOCIATE.png"
+                         alt="SnowPro Associate Certification">
+                </div>
+
+                <div class="certificate-info">
+                    <h3>SnowPro Associate</h3>
+
+                    <p class="certificate-organization">
+                        Snowflake
+                    </p>
+
+                    <a href="certificates/SNOWPROASSOCIATE.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate →
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!-- Contact Section -->
 
 <section class="contact" id="contact">
@@ -247,7 +431,7 @@
             Feel free to send me a message.
         </p>
 
-        <form class="contact-form">
+        <form class="contact-form" action="https://formspree.io/f/xrpbnwop" method="POST">
 
             <div class="form-row">
 
@@ -256,6 +440,7 @@
                     <input
                         type="text"
                         id="name"
+                        name="name"
                         placeholder="Enter your name"
                     >
                 </div>
@@ -265,6 +450,7 @@
                     <input
                         type="email"
                         id="email"
+                        name="email"
                         placeholder="Enter your email"
                     >
                 </div>
@@ -275,6 +461,7 @@
                 <label for="message">Your Message</label>
                 <textarea
                     id="message"
+                    name="message"
                     rows="6"
                     placeholder="Write your message..."
                 ></textarea>
